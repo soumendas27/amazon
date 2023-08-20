@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,800;1,6..12,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: red;
+    width: 10vw;
+    font-family: 'Nunito Sans', sans-serif;
+    height: 100vh;
+}
+
+.sidebar nav{
+    padding: 45px;
+
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.main{
+    background-color: yellow;
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+}
+.infocontainer{
+    background-color: rgb(0, 255, 132);
+    height: 45vh;
+    width: 80vw;
+}
